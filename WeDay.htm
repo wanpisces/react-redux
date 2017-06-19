@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!-- saved from url=(0107)https://personal.webank.com/s/hj/op/weday2/share.html?social_id=d9ca84e72ea4f69f3cf3d34124b219c7&shareCode= -->
+<html lang="zh" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-on="http://www.w3.org/1999/xhtml" data-dpr="1" style="font-size: 41.2px;">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>抽奖</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="WeDay_files/bridge-download.css">
+    <link rel="stylesheet" href="WeDay_files/error-dialog.css">
+    <!-- <link rel="stylesheet" href="./WeDay_files/loading.css"> -->
+    <link rel="stylesheet" href="WeDay_files/main.css">
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+</head>
+
+<body id="weday-share-bd" style="background: rgb(255, 255, 255); font-size: 12px;">
+    <div id="shade" class="shade">
+        <div class="cons">
+            <div class="load">
+                <div class="ball1"></div>
+                <div class="ball2"></div>
+                <div class="ball3"></div>
+            </div>
+            <p>加载中....</p>
+        </div>
+    </div>
+    <!--抽奖结果-->
+    <div style="overflow: scroll;height: 100%">
+        <!--guest、wednesday分别控制是否访客和周三-->
+        <section class="weday-share">
+            <img class="weday-flag" src="./WeDay_files/weday-flag.png">
+            <p id="rule">规则说明</p>
+            <section class="wednesday-prize">
+                <div class="prize-box-container">
+                    <svg version="1.1" id="prize-box" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 644 644" stroke="#4b140d" stroke-width="2">
+                        <path fill="#E9A02A" d="M633,6H11c-2.761,0-5,2.239-5,5v622c0,2.762,2.239,5,5,5h622c2.762,0,5-2.238,5-5V11 C638,8.239,635.762,6,633,6z" stroke="none"></path>
+                        <path fill="#a68bff" d="M629,0H7C4.239,0,2,2.238,2,5v622c0,2.762,2.239,5,5,5h622c2.762,0,5-2.238,5-5V5 C634,2.238,631.762,0,629,0z"></path>
+                        <path fill="#7c5ce4" d="M600.459,29H35.541C33.033,29,31,31.033,31,33.541v564.918c0,2.508,2.033,4.541,4.541,4.541h564.918 c2.508,0,4.541-2.033,4.541-4.541V33.541C605,31.033,602.967,29,600.459,29z"></path>
+                        <ellipse cx="17.974" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="49.729" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="80.415" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="112.17" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="142.415" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="174.681" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="206.367" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="238.122" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="268.878" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="300.633" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="332.318" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="364.074" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="394.83" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="426.585" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="458.271" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="488.026" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="520.83" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="552.585" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="583.271" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="615.026" cy="17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="48.983" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="80.764" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="112.545" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="143.325" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="175.035" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="206.816" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="237.596" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="269.377" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="301.088" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="332.869" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="363.648" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="395.43" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="427.14" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="457.92" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="489.749" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="521.53" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="552.24" rx="7" ry="7"></ellipse>
+                        <ellipse cx="618" cy="584.021" rx="7" ry="7"></ellipse>
+                        <ellipse cx="49.729" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="80.415" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="112.17" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="143.926" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="174.681" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="206.367" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="238.122" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="268.878" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="300.633" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="332.318" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="364.074" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="394.83" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="426.585" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="458.271" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="489.026" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="520.83" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="552.585" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="583.271" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="615.026" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17.974" cy="617" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="583.585" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="551.83" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="520.074" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="489.319" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="457.633" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="425.878" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="395.123" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="363.367" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="331.682" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="299.926" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="269.17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="237.415" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="205.73" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="174.974" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="143.17" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="111.415" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="80.729" rx="7" ry="7"></ellipse>
+                        <ellipse cx="17" cy="48.974" rx="7" ry="7"></ellipse>
+                    </svg>
+                    <ul class="prize-list" id="suduWrap">
+                        <li class="reward index1" style="border:.05333rem solid #fff799;box-shadow: 0px 0px 10px #fff799;">
+                            <div class="img-container"></div>
+                        </li>
+                        <li class="reward index2">
+                            <div class="img-container"></div>
+                        </li>
+                        <li class="reward index3">
+                            <div class="img-container"></div>
+                        </li>
+                        <li class="reward index8">
+                            <div class="img-container"></div>
+                        </li>
+                        <li id="startBtn">
+                            <div>点击领取</div>
+                            <div class="times"></div>
+                        </li>
+                        <li class="reward index4">
+                            <div class="img-container"></div>
+                        </li>
+                        <li class="reward index7">
+                            <div class="img-container"></div>
+                        </li>
+                        <li class="reward index6">
+                            <div class="img-container"></div>
+                        </li>
+                        <li class="reward index5">
+                            <div class="img-container"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="winner-board">
+                    <div class="winner-list-container">
+                        <div id="waike" style="position:relative;">
+                            <div id="danmu"></div>
+                        </div>
+                        <div id="danmus"></div>
+                    </div>
+                    <div id="checkReward">
+                        <span>查看我的中奖纪录</span>
+                    </div>
+                </div>
+                <!-- <div class="btn-container">
+                    <button class="button-normal">邀请好友开户,获下期抽奖机会</button>
+                </div> -->
+            </section>
+        </section>
+    </div>
+    <div id="popup" style="display: none;">
+        <div class="popup-wrap-b">
+            <div class="text">
+                <div class='rewardPopup'><img src='./WeDay_files/sorry.png' />
+                    <div>很抱歉，没有抽到奖品，
+                        <br/>明日再来一战吧</div>
+                    <div><img class='codeImg' src='./WeDay_files/code.png' /></div>
+                    <div>长按二维码进入公众号，
+                        <br/>输入手机号或QQ号领取奖品</div>
+                    <div class='rewardBtn'>确定</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="submitInfo" style="display: none;">
+        <div class="submitInfo-content">
+            <div class="close">X</div>
+            <div class="subDetail">
+                <div><span>收件人</span>
+                    <input type="text" name="name" id="userName" placeholder="请输入姓名">
+                </div>
+                <div><span>手机号</span>
+                    <input type="text" name="number" id="userNumber" placeholder="请输入手机号">
+                </div>
+                <div><span>QQ号</span>
+                    <input type="text" name="qqNumber" id="qqNumber" placeholder="请输入QQ号">
+                </div>
+                <!-- <div><span>收货地址</span>
+                    <input type="text" name="address" id="address" placeholder="请输入收货地址">
+                </div> -->
+            </div>
+            <div style="text-align: center;">
+                <button id="subSure">确定</button>
+            </div>
+            <div id="prompt"></div>
+        </div>
+    </div>
+    <div id="prizeInfo" style="display: none;">
+        <div class="prizeInfo-content">
+            <div>
+                <ul>
+                </ul>
+            </div>
+            <div style="text-align: center;">
+                <button id="prizeBtn">确定</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/reward.js"></script>
+    <script type="text/javascript" src="js/cmain.js"></script>
+</body>
+<div></div>
+
+</html>

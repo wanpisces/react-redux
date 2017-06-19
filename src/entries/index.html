@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="index.css" />
+    <style id="style-1-cropbar-clipper">
+    body{
+        /*background: url('http://weixin.handsight.cn/WeDay_files/weixin_bg.jpg');*/
+        background-size: cover;
+    }
+    .en-markup-crop-options {
+        top: 18px !important;
+        left: 50% !important;
+        margin-left: -100px !important;
+        width: 200px !important;
+        border: 2px rgba(255, 255, 255, .38) solid !important;
+        border-radius: 4px !important;
+    }
+
+    .en-markup-crop-options div div:first-of-type {
+        margin-left: 0px !important;
+    }
+
+    .winner-list-container {
+        /*position: relative;*/
+    }
+
+    #rule {
+        position: absolute;
+        top: .3rem;
+        right: .1rem;
+        width: 1.8rem;
+        color: #fff;
+        font-size: .4rem;
+        font-family: "微软雅黑";
+        cursor: pointer;
+    }
+
+    .marquee {
+        position: absolute;
+        /* bottom: -200%; */
+        left: 0;
+        width: 100%;
+        white-space: nowrap;
+        font-size: 18px;
+        color: white;
+        animation: myfirst 200s linear infinite;
+        -moz-animation: myfirst 200s linear infinite;
+        /* Firefox */
+        -webkit-animation: myfirst 200s linear infinite;
+        /* Safari and Chrome */
+        -o-animation: myfirst 200s linear infinite;
+        /* Opera */
+    }
+
+    #checkReward {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    @keyframes myfirst {
+        from {
+            top: 100px;
+        }
+        to {
+            top: -100%;
+        }
+    }
+
+    @-moz-keyframes myfirst
+    /*Firefox*/
+
+    {
+        from {
+            top: 100px;
+        }
+        to {
+            top: -100%;
+        }
+    }
+
+    @-o-keyframes myfirst
+    /*Opera*/
+
+    {
+        from {
+            top: 100px;
+        }
+        to {
+            top: -100%;
+        }
+    }
+
+    @-webkit-keyframes myfirst
+    /* Safari and Chrome */
+
+    {
+        from {
+            top: 100px;
+        }
+        to {
+            top: -100%;
+        }
+    }
+
+    .oLi {
+        font-size: 13px;
+        color: white;
+        margin: 5px 0;
+    }
+
+    .shade {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .9);
+        z-index: 11;
+    }
+
+    .cons {
+        width: 200px;
+        height: 120px;
+        margin: 50% auto;
+        /* border: 1px solid black; */
+        text-align: center;
+    }
+
+    .cons p {
+        font-size: 16px;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .load {
+        width: 150px;
+        height: 70px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .ball1 {
+        width: 15px;
+        height: 15px;
+        border-radius: 20px;
+        background: #EDBB99;
+        position: absolute;
+        animation: myfirsts 3s infinite;
+        -moz-animation: myfirsts 3s infinite;
+        /* Firefox */
+        -webkit-animation: myfirsts 3s infinite;
+        /* Safari and Chrome */
+        -o-animation: myfirsts 3s infinite;
+        /* Opera */
+    }
+
+    .ball2 {
+        width: 15px;
+        height: 15px;
+        border-radius: 20px;
+        background: #F9E79F;
+        position: absolute;
+        top: 30px;
+        animation: myfirsts 4s infinite;
+        -moz-animation: myfirsts 4s infinite;
+        /* Firefox */
+        -webkit-animation: myfirsts 4s infinite;
+        /* Safari and Chrome */
+        -o-animation: myfirsts 4s infinite;
+        /* Opera */
+    }
+
+    .ball3 {
+        width: 15px;
+        height: 15px;
+        border-radius: 20px;
+        background: #F5CBA7;
+        position: absolute;
+        top: 60px;
+        animation: myfirsts 5s infinite;
+        -moz-animation: myfirsts 5s infinite;
+        /* Firefox */
+        -webkit-animation: myfirsts 5s infinite;
+        /* Safari and Chrome */
+        -o-animation: myfirsts 5s infinite;
+        /* Opera */
+    }
+
+    @keyframes myfirsts {
+        0% {
+            left: 0;
+        }
+        50% {
+            left: 135px;
+        }
+        100% {
+            left: 0px;
+        }
+    }
+
+    @-moz-keyframes myfirsts {
+        0% {
+            left: 0;
+        }
+        50% {
+            left: 135px;
+        }
+        100% {
+            left: 0px;
+        }
+    }
+
+    @-o-keyframes myfirsts {
+        0% {
+            left: 0;
+        }
+        50% {
+            left: 135px;
+        }
+        100% {
+            left: 0px;
+        }
+    }
+
+    @-webkit-keyframes myfirsts
+    /* Safari 和 Chrome */
+
+    {
+        0% {
+            left: 0;
+        }
+        50% {
+            left: 135px;
+        }
+        100% {
+            left: 0px;
+        }
+    }
+    </style>
+</head>
+
+<body>
+   <div id="main-content"></div>
+   <script src="config.js"></script>
+   <script src="common.js"></script>
+   <script src="index.js"></script>
+   <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+</body>
+</html>
